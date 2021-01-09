@@ -1,0 +1,11 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "projet 3",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./src/sass/main.scss:./src/css/style.css"
+  },
+  "author": "Gaelle Garet",
+  "license": "ISC"
+}
