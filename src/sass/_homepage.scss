@@ -124,9 +124,6 @@
     &:last-child {
       margin-bottom: 0;
       @include tutoBox(#e6d4ee);
-      &__icon{
-        color: #e6d4ee;
-      }
     }
 
     &::before {

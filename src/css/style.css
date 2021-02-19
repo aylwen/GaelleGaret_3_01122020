@@ -219,9 +219,6 @@ body, html {
   margin-bottom: 0;
   background-color: #e6d4ee;
 }
-.tuto__step:last-child__icon {
-  color: #e6d4ee;
-}
 .tuto__step::before {
   counter-increment: compteListe 1;
   content: counter(compteListe) " ";
