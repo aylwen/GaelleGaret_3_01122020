@@ -215,6 +215,11 @@
   text-decoration: none;
   justify-content: center;
   padding: 3rem 0;
+
+  > a{
+    text-decoration: none;
+  }
+
 }
 
 .commandBtn {

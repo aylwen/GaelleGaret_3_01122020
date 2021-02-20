@@ -98,9 +98,9 @@ body, html {
   width: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: white;
   animation: loader 0.01s;
-  animation-delay: 1.75s;
+  animation-delay: 2s;
   animation-fill-mode: both;
   z-index: 10000;
   display: flex;
@@ -150,6 +150,9 @@ body, html {
   padding: 2rem;
   text-align: center;
   background-color: #fafafa;
+}
+.gradient > a {
+  text-decoration: none;
 }
 .gradient__title {
   margin: 0;
@@ -544,6 +547,9 @@ body, html {
   text-decoration: none;
   justify-content: center;
   padding: 3rem 0;
+}
+.wrapBtn > a {
+  text-decoration: none;
 }
 
 .commandBtn {
